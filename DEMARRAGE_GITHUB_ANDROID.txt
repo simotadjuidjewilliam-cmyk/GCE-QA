@@ -1,0 +1,13 @@
+DEMARRAGE RAPIDE — GCE ANSWERS
+
+1) Décompresser le ZIP dans Files.
+2) Dans GitHub, ouvrir GCE-Questions-Answers > branche main.
+3) Ajouter le CONTENU du dossier extrait à la racine du dépôt.
+4) Ne pas oublier .github/workflows/build-apk.yml (dossier parfois caché).
+5) Commit changes.
+6) Ouvrir Actions > Build GCE Answers APK.
+7) Run workflow si nécessaire, puis attendre la coche verte.
+8) Télécharger l'artefact GCE-Answers-debug-APK.
+9) Décompresser l'artefact et installer app-debug.apk.
+
+Le ZIP est un projet source, pas un APK. Ne pas le renommer en .apk.
